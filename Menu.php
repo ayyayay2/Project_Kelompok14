@@ -1,3 +1,9 @@
+<?php
+include 'koneksi.php';
+$no = 1;
+$query = mysqli_query($koneksi, "SELECT * FROM produk");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,11 +16,11 @@
     <nav class="navbar">
     <div class="logo">🍰 Petite Pantry</div>
     <ul class="nav-links">
-        <li><a href="Tugas1.html">Home</a></li>
-        <li><a href="Tugas2.html">Menu</a></li>
-        <li><a href="Tugas3.html">Order</a></li>
-        <li><a href="Tugas4.html">Contact</a></li>
-        <li><a href="Tugas5.html">About</a></li>
+        <li><a href="main.php">Home</a></li>
+        <li><a href="Menu.php">Menu</a></li>
+        <li><a href="order.php">Order</a></li>
+        <li><a href="pesan.php">Contact</a></li>
+        <li><a href="aboutus.php">About</a></li>
     </ul>
     </nav>
         <fieldset class="menu-container">
@@ -45,8 +51,8 @@
                     <tr>
                         <td>2.</td>
                         <td>Tiny Donuts</td>
-                        <td>Rp. 25.000,-</td>
-                        <td>1 pcs</td>
+                        <td>Rp. 30.000,-</td>
+                        <td>3 pcs</td>
                         <td><img src="donut.jpg" alt="Tiny Donut"></td>
                     </tr>
             

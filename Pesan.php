@@ -10,11 +10,11 @@
     <nav class="navbar">
     <div class="logo">🍰 Petite Pantry</div>
     <ul class="nav-links">
-        <li><a href="Tugas1.html">Home</a></li>
-        <li><a href="Tugas2.html">Menu</a></li>
-        <li><a href="Tugas3.html">Order</a></li>
-        <li><a href="Tugas4.html">Contact</a></li>
-        <li><a href="Tugas5.html">About</a></li>
+        <li><a href="main.php">Home</a></li>
+        <li><a href="Menu.php">Menu</a></li>
+        <li><a href="order.php">Order</a></li>
+        <li><a href="pesan.php">Contact</a></li>
+        <li><a href="aboutus.php">About</a></li>
     </ul>
     </nav>
     <div class="contact-container">
