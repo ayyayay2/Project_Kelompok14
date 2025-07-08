@@ -1,3 +1,78 @@
+/* === LOGIN PAGE STYLING === */
+body {
+    background-color: #fff0f5;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container form login di tengah layar */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Kotak form login */
+.login-box {
+    background-color: #ffffff;
+    border: 2px dashed pink;
+    border-radius: 20px;
+    padding: 40px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(255, 182, 193, 0.4);
+}
+
+/* Judul login */
+.login-box h2 {
+    margin-bottom: 20px;
+    color: palevioletred;
+}
+
+/* Input field */
+.login-box input[type="text"],
+.login-box input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid pink;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+/* Tombol login */
+.login-box input[type="submit"] {
+    background-color: pink;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+    animation: pulse 2s infinite;
+}
+
+.login-box input[type="submit"]:hover {
+    background-color: palevioletred;
+}
+
+/* ANIMASI */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+
 /* 🎀 GLOBAL STYLING UNTUK SEMUA HALAMAN */
 body {
     background-color: #fff0f5;

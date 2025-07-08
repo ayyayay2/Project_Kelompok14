@@ -31,7 +31,6 @@ while ($row = mysqli_fetch_assoc($query)) {
         <li><a href="main.php">Home</a></li>
         <li><a href="Menu.php">Menu</a></li>
         <li><a href="order.php">Order</a></li>
-        <li><a href="pesan.php">Contact</a></li>
         <li><a href="aboutus.php">About</a></li>
     </ul>
 </nav>

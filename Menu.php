@@ -19,7 +19,6 @@ $query = mysqli_query($koneksi, "SELECT * FROM produk");
         <li><a href="main.php">Home</a></li>
         <li><a href="Menu.php">Menu</a></li>
         <li><a href="order.php">Order</a></li>
-        <li><a href="pesan.php">Contact</a></li>
         <li><a href="aboutus.php">About</a></li>
     </ul>
     </nav>
